@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+li {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+img {
+    width: 50vh;
+}
+
+nav {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.bg-blue {
+    background-color: #00bcd4;
+}
+
+.bg-yellow {
+    background-color: #f1da0b;
+}
+
+.ul-inline {
+    display: flex;
+}
+
+.logo {
+    width: 20vh;
+}
+
+#plop {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.enfant-plop-parent-div {
+    display : flex;
+    flex-direction: row-reverse;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-5 {
+    padding: 30px;
+}
